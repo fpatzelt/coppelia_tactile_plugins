@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>coppelia_ros_contact</name>
+  <version>0.0.0</version>
+  <description>The coppelia_ros_contact package</description>
+
+  <maintainer email="fpatzelt@techfak.uni-bielefeld.de">Florian Patzelt</maintainer>
+
+
+  <license>BSD</license>
+  <license>Apache 2.0</license>
+
+
+  <author email="fpatzelt@techfak.uni-bielefeld.de">Florian Patzelt</author>
+
+
+  <buildtool_depend version_gte="0.5.68">catkin</buildtool_depend>
+
+  <depend version_gte="1.1">urdfdom_headers</depend>
+  <depend version_gte="1.1">urdfdom</depend>
+  <depend>rosconsole_bridge</depend>
+  <depend>roscpp</depend>
+  <build_depend>urdf_parser_plugin</build_depend>
+  <depend>pluginlib</depend>
+  <depend>cmake_modules</depend>
+  <depend>tinyxml</depend>
+  <depend>tinyxml2</depend>
+
+  <depend>gazebo_ros</depend>
+  <depend>tactile_msgs</depend>
+</package>

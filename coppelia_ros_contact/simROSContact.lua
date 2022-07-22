@@ -1,0 +1,3 @@
+local simROSContact={}
+
+return simROSContact
